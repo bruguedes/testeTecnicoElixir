@@ -33,7 +33,7 @@ const relatorio = (arrListaCompra, arrEmail) => {
         resultados[arrEmail[i]] = Number((totalIndividual*100).toFixed(0))
        }
      }
-     console.log(totalLista)
+     
     return resultados;
   }
   };

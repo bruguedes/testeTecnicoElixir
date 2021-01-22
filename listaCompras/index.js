@@ -2,30 +2,30 @@ const compras = [
     {
       item: "feijaõ",
       quantidade: 1,
-      preço: 753,
+      preço: 700,
     },
     {
       item: "Arroz",
-      quantidade: 5,
-      preço: 1351,
+      quantidade: 1,
+      preço: 1200,
     },{
       item: "Arroz",
-      quantidade: 3,
-      preço: 2754,
+      quantidade: 1,
+      preço: 2700,
     },
     {
       item: "feijaõ",
       quantidade: 1,
-      preço: 753,
+      preço: 700,
     },
     {
       item: "Arroz",
-      quantidade: 5,
-      preço: 1351,
+      quantidade: 1,
+      preço: 1200,
     },{
       item: "Arroz",
-      quantidade: 3,
-      preço: 2754,
+      quantidade: 1,
+      preço: 2700,
     },
   ];
 
