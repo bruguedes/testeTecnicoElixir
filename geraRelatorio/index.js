@@ -11,8 +11,8 @@ const relatorio = (arrListaCompra, arrEmail) => {
       return acc;
     }, 0);
   
-    let totalIndividual = Math.ceil((totalLista / arrEmail.length) * 100) / 100;
-    let centavoMais = (totalIndividual * arrEmail.length - totalLista).toFixed(2).toString();
+    let totalIndividual = Math.floor((totalLista / arrEmail.length) * 100) / 100;
+    let centavoMais = ( totalLista - (totalIndividual * arrEmail.length) ).toFixed(2).toString();
   
     let quantoRetirar = (srt) => {
       let centavos = "";
@@ -27,15 +27,13 @@ const relatorio = (arrListaCompra, arrEmail) => {
       
       if (centavoRetirar > i) {
         let sub = 0.01;
-        let corrigindo = totalIndividual - sub;
-        resultados[arrEmail[i]] = corrigindo.toFixed(2)
+        let corrigindo = totalIndividual + sub;
+        resultados[arrEmail[i]] = Number(corrigindo.toFixed(2))
        } else {
         resultados[arrEmail[i]] = totalIndividual
        }
-     
-     
-    }
-   
+     }
+  
     return resultados;
   }
   };
