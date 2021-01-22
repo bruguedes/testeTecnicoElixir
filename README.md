@@ -1,18 +1,12 @@
 # Resposta ao teste técnico para concorrer uma bolsa no Programa de Formação em Elixir 
 
 Informações:
-1) A função que faz o relatorio esta localizada na pasta **geraRelatorio**.
-2) Array com a lista de email esta na pasta **listaEmail** Ex.:['email@email.com', 'outroemail@email.com', ...]
-3) array de item esta na pasta **listaCompras**, em cada objeto dentro do array deve-se declara
-Ex.:[ {item: "Arroz", quantidade: 1, preço: 750}, {item: "feijão", quantidade: 1, preço: 800}, ,...] 
-
-Instruçoes:
-4) Para gerar o relatorio basta chamar a função **fazRelatorio** e passar como paramentro a **listaDeCompras**
-e a **listaEmail**, no aruivo raiz **app.js** .O retorno da função e um objeto contendo todos os email da lista como chave do objeto e seus respectivo valor.
-5) Para imprimir o retorno basta utiliza o **console.log(fazRelatorio(listaCompras, listaEmail))** na função, ou
-atribuir a função a uma variavel e imprimi-la.
-Obs.:caso queria, e possivel passar a lista de compras e email por meio de outro arquivo, desde que esteja alocada
-a uma variavel e esta seja passada como paramento para função.
+A função que faz o relatório está localizada na pasta geraRelatorio.
+O array com a lista de e-mails está na pasta listaEmail Ex.:['email@email.com', 'outroemail@email.com', ...]
+O array de item está na pasta listaCompras, em cada objeto dentro do array deve-se declarar Ex.:[ {item: "Arroz", quantidade: 1, preço: 750}, {item: "feijão", quantidade: 1, preço: 800}, ,...]
+      4) Para gerar o relatório basta chamar a função fazRelatorio e passar como parâmetro: listaDeCompras , listaEmail.  No arquivo raiz app.js, o retorno da função é um objeto contendo todos os e-mails  da lista como chave do objeto e seus respectivos valores.
+      5) Em app.js a requisição da lista de compras e da lista de e-mails ficam alocadas nas constantes: listaCompras e listaEmail. Depois disso a função, relatório, localizada na pasta “./geraRelatorio/index.js” é alocada na constante fazRelatorio. Por último é utilizado o console.log(fazRelatorio(listaCompras, listaEmail)), dentro do arquivo app.js para imprimir no terminal .
+	Obs: Caso queira, é possível passar a lista de compras e e-mails por meio de outro arquivo, desde que esteja alocada a uma variável e está seja passada como parâmetro para função.
 
 1) **app.js** requisita a lista de compras e lista de email respectivamente e aloca nas variaveis **const listaCompras**  e **const listaEmail**
 2)  **app.js** requisita a função localizada na pasta **geraRelatorio** e aloca na variavel **const fazRelatorio**

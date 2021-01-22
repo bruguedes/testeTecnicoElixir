@@ -2,7 +2,7 @@
 // array com a lista de email esta na pasta listaEmail
 //['email@email.com', 'outroemail@email.com',...]
 // array de item esta na pasta listaCompras, em cada objeto dentro do array deve-se declara
-//[{item: "Arroz", quantidade: 1, preço: 7.54},{item: "Arroz", quantidade: 1, preço: 7.54},...] 
+//[{item: "Arroz", quantidade: 1, preço: 700},{item: "Arroz", preço: 750, quantidade: 1},...] 
 
 //Para gerar o relatorio basta chamar a função fazRelatorio e passar como paramentro a listaDeCompras
 //e a listaEmail.
