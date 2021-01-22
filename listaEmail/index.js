@@ -5,10 +5,7 @@ const email = [
   "4.maga@gmail.com",
   "5.maga@gmail.com",
   "6.maga@gmail.com",
-  "7.maga@gmail.com",
-  
-  
-  
+  "7.maga@gmail.com"
   ]
 
   module.exports = email
