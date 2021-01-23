@@ -14,6 +14,7 @@ const compras = [
       preço: 3700,
       quantidade: 1,
     },
+    
    
   ];
 
