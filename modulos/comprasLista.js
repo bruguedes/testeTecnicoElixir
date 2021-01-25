@@ -1,21 +1,24 @@
 const compras = [
     {
       item: "feijaõ",
-      preço: 700,
-      quantidade: 1,
+      preco: 700,
+      quantidade: 3,
     },
     {
       item: "Arroz",
-      preço: 2200,
-      quantidade: 1,
+      preco: 2200,
+      quantidade: 5,
     },
     {
       item: "sal",
-      preço: 3700,
+      preco: 3700,
       quantidade: 1,
     },
-    
-   
+    {
+      item: "Frango",
+      preco: 5000,
+      quantidade: 5,
+    },   
   ];
 
   module.exports = compras

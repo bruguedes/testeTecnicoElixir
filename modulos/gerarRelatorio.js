@@ -7,7 +7,7 @@ const relatorio = (arrListaCompra, arrEmail) => {
   
   const resultados={}
     let totalLista = arrListaCompra.reduce((acc, valor) => {
-      acc += valor.preço * valor.quantidade;
+      acc += valor.preco * valor.quantidade;
       return acc;
     }, 0)/100;
   
