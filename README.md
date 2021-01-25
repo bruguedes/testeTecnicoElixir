@@ -7,7 +7,7 @@ Informações:
  Ex.:['email@email.com', 'outroemail@email.com', ...]
 
 3. O array de item está na pasta modulos/comprasLista.js, em cada objeto dentro do array deve-se declarar como descrito no exemplo a seguir.
- Ex.:[ {item: "Arroz", quantidade: 1, preço: 750}, {item: "feijão", quantidade: 1, preço: 800}, ,...]
+ Ex.:[ {item: "Arroz", quantidade: 1, preco: 750}, {item: "feijão", quantidade: 1, preco: 800}, ,...]
 
 4) Para gerar o relatório:
  No arquivo app.js, basta chamar a função fazRelatorio e passar como parâmetros compras e email. O retorno da função é um objeto contendo todos os e-mails da lista como chave e seus respectivos valores.
