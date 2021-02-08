@@ -2,8 +2,8 @@
 
 Informações:
 
-Aplicação desenvolvida utilizando Node.Js versão v14.15.4
-Link download: https://nodejs.org/pt-br/download/
+Aplicação desenvolvida utilizando Node.Js versão v14.15.4<br>
+Link download: https://nodejs.org/pt-br/download/<br>
 Link node.js Documentação: https://nodejs.org/pt-br/docs/
 
 Para executar a função, estando dentro do pasta raiz do projeto por meio do terminal (cmd, power Shell ou integrado VsCode),
