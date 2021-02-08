@@ -1,6 +1,14 @@
 # Resposta ao teste técnico: Programa de Formação em Elixir 
 
 Informações:
+
+Aplicação desenvolvida utilizando Node.Js versão v14.15.4
+Link download: https://nodejs.org/pt-br/download/
+Link node.js Documentação: https://nodejs.org/pt-br/docs/
+
+Para executar a função, estando dentro do pasta raiz do projeto por meio do terminal (cmd, power Shell ou integrado VsCode),
+ utilizar o comando: node apps.js 
+
 1. A função que faz o relatório está localizada na pasta modulos/gerarRelatorio.js
 
 2. O array com a lista de e-mails está na pasta modulos/emailLista.js
