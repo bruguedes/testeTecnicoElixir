@@ -1,22 +1,22 @@
 const compras = [
     {
       item: "feijaõ",
-      preco: 700,
+      preco: 752,
       quantidade: 3,
     },
     {
       item: "Arroz",
-      preco: 2200,
+      preco: 2207,
       quantidade: 5,
     },
     {
       item: "sal",
-      preco: 3700,
+      preco: 3710,
       quantidade: 1,
     },
     {
       item: "Frango",
-      preco: 5000,
+      preco: 5113,
       quantidade: 5,
     },   
   ];

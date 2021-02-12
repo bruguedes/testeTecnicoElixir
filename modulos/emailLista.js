@@ -1,11 +1,13 @@
 const email = [
-  "1.maga@gmail.com",
-  "2.maga@gmail.com",
-  "3.maga@gmail.com",
-  "4.maga@gmail.com",
-  "5.maga@gmail.com",
-  "6.maga@gmail.com",
-  "7.maga@gmail.com"
+  "um@gmail.com",
+  "dois@gmail.com",
+  "tres@gmail.com",
+  "quatro@gmail.com",
+  "cinco@gmail.com",
+  "seis@gmail.com",
+  "sete@gmail.com",
+  "oito@gmail.com",
+  "nove@gmail.com",
   ]
 
   module.exports = email
